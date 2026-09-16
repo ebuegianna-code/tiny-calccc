@@ -1,0 +1,10 @@
+[project]
+name = "tiny-calc"
+version = "0.1.0"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build meta"
+
+[tools.setuptools]
+py-modules = ["calculator"]
